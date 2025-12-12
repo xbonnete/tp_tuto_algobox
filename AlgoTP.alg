@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="AFFICHER &quot;ça marche&quot;"/>
+    <description texte="" courant="AFFICHER &quot;xuan&quot;"/>
     <extension extnom="inactif"/>
-    <fonction fctcode="" fctetat="inactif"/>
-    <F2 F2lignes="" F2para="" F2defaut="" F2etat="inactif"/>
+    <fonction fctetat="inactif" fctcode=""/>
+    <F2 F2lignes="" F2defaut="" F2etat="inactif" F2para=""/>
     <repere repetat="inactif" repcode="-10#10#-10#10#2#2"/>
-    <param arrondiAuto="vrai" epaisseurLigne="2" epaisseurPoint="2" maxBoucle="500000" totalBoucles="5000000" totalAffichages="1000" nbDecimales="8"/>
-    <item code="200#declarationfonctions" algoitem="FONCTIONS_UTILISEES"/>
-    <item code="100#declarationsvariables" algoitem="VARIABLES">
-        <item code="1#CHAINE#a" algoitem="a EST_DU_TYPE CHAINE"/>
+    <param maxBoucle="500000" nbDecimales="8" totalAffichages="1000" epaisseurLigne="2" totalBoucles="5000000" arrondiAuto="vrai" epaisseurPoint="2"/>
+    <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions"/>
+    <item algoitem="VARIABLES" code="100#declarationsvariables">
+        <item algoitem="a EST_DU_TYPE CHAINE" code="1#CHAINE#a"/>
     </item>
-    <item code="101#debutalgo" algoitem="DEBUT_ALGORITHME">
-        <item code="5#a#&quot;hello world&quot;#pasliste" algoitem="a PREND_LA_VALEUR &quot;hello world&quot;"/>
-        <item code="3#a#0#pasliste" algoitem="AFFICHER a"/>
-        <item code="4#ça marche#0" algoitem="AFFICHER &quot;ça marche&quot;"/>
+    <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo">
+        <item algoitem="a PREND_LA_VALEUR &quot;hello world&quot;" code="5#a#&quot;hello world&quot;#pasliste"/>
+        <item algoitem="AFFICHER a" code="3#a#0#pasliste"/>
+        <item algoitem="AFFICHER &quot;xuan&quot;" code="4#xuan#0"/>
     </item>
-    <item code="102#finalgo" algoitem="FIN_ALGORITHME"/>
+    <item algoitem="FIN_ALGORITHME" code="102#finalgo"/>
 </Algo>
